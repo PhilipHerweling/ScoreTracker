@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="../javascript/tables/serieATable.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/table.css">
+    <title>Serie A Table</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">Score Tracker</a>
+        </div>
+
+        <!-- Dropdown Premier League -->
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+            id="league-dropdown" data-bs-toggle="dropdown">
+            Premier League</button>
+            <ul class="dropdown-menu" aria-labelledby="league-dropdown">
+            <li><a class="dropdown-item" href="premTable.html">Premier League</a></li>
+            <li><a class="dropdown-item" href="../fixturesHTML/premFixtures.html">Premier League Fixtures</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown Bundesliga -->
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+            id="league-dropdown" data-bs-toggle="dropdown">
+            Bundesliga</button>
+            <ul class="dropdown-menu" aria-labelledby="league-dropdown">
+            <li><a class="dropdown-item" href="bltable.html">Bundesliga</a></li>
+            <li><a class="dropdown-item" href="../fixturesHTML/blFixtures.html">Bundesliga Fixtures</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown Liga Santander -->
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+            id="league-dropdown" data-bs-toggle="dropdown">
+            Liga Santander</button>
+            <ul class="dropdown-menu" aria-labelledby="league-dropdown">
+            <li><a class="dropdown-item" href="lstable.html">Liga Santander</a></li>
+            <li><a class="dropdown-item" href="../fixturesHTML/lsFixtures.html">Liga Santander Fixtures</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown League 1 -->
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+            id="league-dropdown" data-bs-toggle="dropdown">
+            League 1</button>
+            <ul class="dropdown-menu" aria-labelledby="league-dropdown">
+            <li><a class="dropdown-item" href="l1table.html">League 1</a></li>
+            <li><a class="dropdown-item" href="../fixturesHTML/l1Fixtures.html">League 1 Fixtures</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown Serie A -->
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+            id="league-dropdown" data-bs-toggle="dropdown">
+            Serie A</button>
+            <ul class="dropdown-menu" aria-labelledby="league-dropdown">
+            <li><a class="dropdown-item" href="satable.html">Serie A</a></li>
+            <li><a class="dropdown-item" href="../fixturesHTML/saFixtures.html">Serie A Fixtures</a></li>
+            </ul>
+        </div>
+
+        <!-- Live Games -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="../live.html">Live Fixtures</a>
+            </li>
+
+        </ul>
+    </nav>
+    <section id="table" class="table">
+        <div class="container">
+            <div class="row">
+
+                <h1>Serie A Table</h1>
+
+
+
+                <div id="div1">
+
+                </div>
+
+                <table id="myTable" class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Club Name</th>
+                        <th>Games Played</th>
+                        <th>Wins</th>
+                        <th>Draws</th>
+                        <th>Losses</th>
+                        <th>Goal Difference</th>
+                        <th>Points</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <p class="champions">The top 4 teams in the Serie A get to compete in the champions league the following year.</p>
+        <p class="europa">The teams which finishes 5th and 6th place get to compete in the europa league the following year.</p>
+        <p class="conference">The team which finishes in 7th place get to compete in next years conference league</p>
+        <p class="relegation">The bottom three teams get relegated to the Serie B and wont compete in the Serie A next year</p>
+    </section>
+
+</body>
+</html>

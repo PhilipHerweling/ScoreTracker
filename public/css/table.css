@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0;
+    outline: 0;
+    text-align: center;
+}
+
+.dropdown {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.champions {
+    color: blue;
+}
+
+.europa {
+    color: orange;
+}
+
+.conference {
+    color: green;
+}
+
+.relegation {
+    color: red;
+}
+
+.position {
+    color: blue;
+}
